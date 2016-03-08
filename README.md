@@ -1,12 +1,13 @@
 # https-with-nodejs-express
 how to use https with nodejs express webframework
 
+## how to start the webserver
 **step 1:** ```npm install```  
 **step 2:** ```npm start```  
 **step 3:** ```https://localhost:8080/``` // should run on port 443 in production so you can access your page on https://localhost/
   
   
-# how to generate a self signed certificate with openssl
+## how to generate a self signed certificate with openssl
 
 ```bash
 openssl genrsa -des3 -out server.key 2048
